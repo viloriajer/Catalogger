@@ -1,0 +1,65 @@
+{
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "debug.javascript.debugByLinkOptions": "on",
+  "search.exclude": {
+    "**/.expo": true,
+    "**/node_modules": true
+  },
+  "debug.focusWindowOnBreak": false,
+  "explorer.sortOrderLexicographicOptions": "upper",
+  "git.autorefresh": true,
+  "npm.packageManager": "yarn",
+  "typescript.tsc.autoDetect": "off",
+  "npm.autoDetect": "off",
+  "terminal.integrated.env.linux": {
+    "VSCODE_WORKSPACE_DIR": "${workspaceFolder}",
+    "VSCODE_REPO_RC": "${workspaceFolder}/bashrc"
+    // `[ -f "$VSCODE_REPO_RC" ] && source $VSCODE_REPO_RC` in your .bashrc
+  },
+  "files.associations": {
+    "**/.mysql/*.psv": "restructuredtext"
+  },
+  "[SQL]": {
+    "editor.formatOnSave": false
+    //  "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  // "[MySQL]": {
+  //    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  // },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": ["source.organizeImports"]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "liveServer.settings.port": 5502,
+  "testing.automaticallyOpenPeekView": "never"
+}
